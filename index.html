@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API DEMO</title>
+</head>
+<body>
+    <script src="index.js"></script>
+</body>
+</html>
+
+<!-- let options = {
+    "method" : "DELETE",
+    "headers" : {
+        "content-type": "application/json",
+        "Accept": "application/json",
+    },
+    "body" : JSON.stringify({
+        "id":2,
+        "name":"Chotu"
+    })
+}
+
+fetch("http://localhost:5000/users/2", options)
+.then(response => {
+    if(response.ok)
+        console.log("New Data Inserted",response.status)
+}).catch(err => console.log(err))
+
+let options = {
+    "method" : "POST",
+    "headers" : {
+        "content-type": "application/json"
+    },
+    "body" : JSON.stringify({
+        "id":3,
+        "name":"Chotu",
+        "age": 24
+    })
+}
+
+fetch("http://localhost:3000/users/2", options)
+.then(response => {
+    if(response.ok)
+        console.log("New Data Inserted",response.status)
+}).catch(err => console.log(err))
+
+// .then((res) => res.json())
+// .then((User_data) => console.log(User_data)) -->
